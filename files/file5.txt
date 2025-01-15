@@ -1,0 +1,68 @@
+    1  pwd
+    2  ls
+    3  ls -al
+    4  cd ..
+    5  ls
+    6  pwd
+    7  cd ..
+    8  pwd
+    9  ls -al
+   10  cd ~
+   11  pwd
+   12  cd /workspaces/ds2002-ewg2bd
+   13  cd /
+   14  cd /workspaces/ds2002-ewg2bd/
+   15  touch file1.txt
+   16  ls
+   17  ls -al
+   18  touch file2.txt
+   19  touch file3.txt
+   20  ls -al
+   21  echo "a man a plan a canal panama" > file1.txt 
+   22  ls -al
+   23  cat file1.txt 
+   24  cat file1.txt > file2.txt 
+   25  cat file1.txt > file3.txt 
+   26  ls -al
+   27  echo "this should be a second line" >> file2.txt 
+   28  cat file2.txt 
+   29  echo "this should be a second line" > file2.txt 
+   30  cat file2.txt 
+   31  clear
+   32  cat /dev/null > file3.txt 
+   33  ls -al
+   34  mkdir files
+   35  ls -al
+   36  mv file1.txt files/
+   37  ls -al
+   38  ls -al files/
+   39  touch file4.txt
+   40  touch file5.txt
+   41  cp file2.txt file6.txt
+   42  cp file3.txt file7.txt
+   43  ls - al
+   44  ls -al
+   45  touch script.sh
+   46  touch myscript.py
+   47  mv file*.txt files/
+   48  ls -al 
+   49  ls -al files
+   50  rm files/file7.txt 
+   51  ls -al files
+   52  clear
+   53  ls -al
+   54  top
+   55  clear
+   56  ps
+   57  ps aux
+   58  cd files/
+   59  ps aux > file6.txt 
+   60  ls -al
+   61  head file6.txt 
+   62  clear
+   63  head -n 3 file6.txt 
+   64  tail -n 2 file6.txt 
+   65  clear
+   66  history
+   67  ps aux
+   68  history > file5.txt 
